@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="stylesheet" href="css/jqm1.0/jquery.mobile.min.css" />
 <link rel="stylesheet" href="css/styles.css" />
-<script>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	<script>
 var serviceURL = 'http://192.168.3.103/version1employes/services/';
 var mediaURL = 'http://192.168.3.103/version1employes/medias/';
 var jqmVERSION = '1.0';
@@ -20,8 +22,9 @@ var jqmVERSION = '1.0';
 		<h1>Liste des Employ&eacute;s</h1>
 	</div>
 
-	<div id="device-ready" style="display: none;">
-		<p>Device Ready</p>
+	<div id="deviceready" class="blink">
+		<p class="event listening">Connecting to Device</p>
+		<p class="event received">Device is Ready</p>
 	</div>
 
 	<div data-role="content">
@@ -30,6 +33,10 @@ var jqmVERSION = '1.0';
 
 </div>
 
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+
 <script src="css/jqm1.0/jquery.js"></script>
 <script src="css/jqm1.0/jquery.mobile.min.js"></script>
 
@@ -37,8 +44,7 @@ var jqmVERSION = '1.0';
 <script src="js/employeedetails.js"></script>
 <script src="js/reportlist.js"></script>
 
-<script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+
 
 
 </body>
