@@ -15,6 +15,12 @@
         Info Team
     </author>
 
+    <!-- Seulement ces deux plateforme ? -->
+    <gap:platform name="android" />
+    <gap:platform name="ios" />
+
+
+
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions"                value="none"/>
 
